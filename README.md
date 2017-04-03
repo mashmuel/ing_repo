@@ -2,3 +2,5 @@
 android learning
 
 Uriel
+
+Maor - adding readme comment
