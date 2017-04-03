@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         Button picButton = (Button)findViewById(R.id.picButton);
+        Button ingSearch = (Button)findViewById(R.id.ingridient);
+        Button prodSearch = (Button)findViewById(R.id.product);
+
 
         picButton.setOnClickListener(
                 new Button.OnClickListener(){
@@ -37,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+
+
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

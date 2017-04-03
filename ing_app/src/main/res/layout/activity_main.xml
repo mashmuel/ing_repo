@@ -30,4 +30,23 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="62dp" />
+
+    <Button
+        android:id="@+id/ingridient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/picButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="search by ingridient name" />
+
+    <Button
+        android:id="@+id/product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="search by product name"
+        android:layout_below="@+id/ingridient"
+        android:layout_alignRight="@+id/ingridient"
+        android:layout_alignEnd="@+id/ingridient" />
 </RelativeLayout>
