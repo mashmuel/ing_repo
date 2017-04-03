@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">ing-app</string>
     <string name="take_picture">take picture</string>
     <string name="takePic">take picture</string>
 </resources>
