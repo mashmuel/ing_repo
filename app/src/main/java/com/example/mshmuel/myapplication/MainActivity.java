@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
                     public void onClick(View v){
                         Button picButton = (Button)findViewById(R.id.picButton);
-                        picButton.setText("picButton clicked!");
+                        picButton.setText("picButton clicked! cool!");
                         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
                             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
