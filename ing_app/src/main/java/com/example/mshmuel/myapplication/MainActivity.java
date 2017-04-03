@@ -29,14 +29,10 @@ public class MainActivity extends AppCompatActivity {
                 new Button.OnClickListener(){
 
                     public void onClick(View v){
-                        Button picButton = (Button)findViewById(R.id.picButton);
-                        picButton.setText("picButton clicked! cool!");
                         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
                             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
                         }
-
-
                     }
                 }
         );
@@ -51,5 +47,14 @@ public class MainActivity extends AppCompatActivity {
             Bitmap imageBitmap = (Bitmap) extras.get("data");
             thumbnail.setImageBitmap(imageBitmap);
         }
+    }
+
+    public void ingSearch(View view){
+        Intent ingSearchIntent = new Intent(this,ingSearchActivity.class);
+        startActivity(ingSearchIntent);
+    }
+    public void prodSearch(View view){
+        Intent prodSearchIntent = new Intent(this,prodSearchActivity.class);
+        startActivity(prodSearchIntent);
     }
 }

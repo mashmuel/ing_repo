@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:text="@string/takePic"
         android:id="@+id/picButton"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/picThumb"
         android:layout_centerHorizontal="true" />
 
     <ImageView
@@ -38,7 +38,8 @@
         android:layout_below="@+id/picButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
-        android:text="search by ingridient name" />
+        android:text="search by ingridient name"
+        android:onClick="ingSearch" />
 
     <Button
         android:id="@+id/product"
@@ -48,5 +49,6 @@
         android:text="search by product name"
         android:layout_below="@+id/ingridient"
         android:layout_alignRight="@+id/ingridient"
-        android:layout_alignEnd="@+id/ingridient" />
+        android:layout_alignEnd="@+id/ingridient"
+        android:onClick="prodSearch" />
 </RelativeLayout>
