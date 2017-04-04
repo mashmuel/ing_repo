@@ -51,4 +51,14 @@
         android:layout_alignRight="@+id/ingridient"
         android:layout_alignEnd="@+id/ingridient"
         android:onClick="prodSearch" />
+    <Button
+        android:id="@+id/ocr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="search by ocr"
+        android:layout_below="@+id/product"
+        android:layout_alignRight="@+id/ingridient"
+        android:layout_alignEnd="@+id/ingridient"
+        android:onClick="ocrSearch" />
 </RelativeLayout>

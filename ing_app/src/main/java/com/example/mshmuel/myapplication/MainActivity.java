@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Button picButton = (Button)findViewById(R.id.picButton);
         Button ingSearch = (Button)findViewById(R.id.ingridient);
         Button prodSearch = (Button)findViewById(R.id.product);
+        Button ocrButton = (Button)findViewById(R.id.ocr);
 
 
         picButton.setOnClickListener(
@@ -56,5 +57,9 @@ public class MainActivity extends AppCompatActivity {
     public void prodSearch(View view){
         Intent prodSearchIntent = new Intent(this,prodSearchActivity.class);
         startActivity(prodSearchIntent);
+    }
+    public void ocrSearch(View view){
+        Intent ocrSearchIntent = new Intent(this,OcrSearchActivity.class);
+        startActivity(ocrSearchIntent);
     }
 }

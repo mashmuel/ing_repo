@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ing_app/ing_app.iml" filepath="$PROJECT_DIR$/ing_app/ing_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ing_repo.iml" filepath="$PROJECT_DIR$/ing_repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tess-two/tess-two.iml" filepath="$PROJECT_DIR$/tess-two/tess-two.iml" />
+    </modules>
+  </component>
+</project>
